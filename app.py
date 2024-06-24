@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from jinja2 import escape
+from markupsafe import escape
 if os.path.exists("env.py"):
     import env
 
