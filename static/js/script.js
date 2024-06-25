@@ -1,1 +1,4 @@
-console.log("Hello cleaveland!!!!")
+  $(document).ready(function(){
+    $('.sidenav').sidenav({edge: "right"});
+  });
+        
